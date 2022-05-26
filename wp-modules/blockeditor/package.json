@@ -1,0 +1,21 @@
+{
+  "name": "blockmodule",
+  "version": "1.0.0",
+  "description": "A module for creating a block in WordPress.",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build js/src/index.js --output-path=js/build/",
+    "dev": "wp-scripts start js/src/index.js --output-path=js/build/"
+  },
+  "author": "",
+  "license": "GPL v2 or greater",
+  "devDependencies": {
+    "@wordpress/scripts": "^19.1.0"
+  },
+  "dependencies": {
+    "@wordpress/block-library": "^7.6.0",
+    "@wordpress/components": "^19.11.0",
+    "@wordpress/element": "^4.0.4",
+    "@wordpress/i18n": "^4.2.4"
+  }
+}
